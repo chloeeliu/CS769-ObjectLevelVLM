@@ -1,0 +1,10 @@
+torch
+numpy
+pycocotools
+scikit-image
+tqdm
+requests
+pandas
+datasets
+transformers
+peft
