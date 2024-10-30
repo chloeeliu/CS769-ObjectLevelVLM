@@ -1,10 +1,6 @@
-git config --global credential.helper store
-
-huggingface-cli login
-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
 
 
->cd "C:\Users\yoite\OneDrive\Desktop\Olive\"
+
 python main.py --train --config ./configs/object_classification.yaml
 python main.py --test --config ./configs/object_classification.yaml
 python retrieve.py --train --config configs/object_classification.yaml
